@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Weather App</title>
+      <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="header-container">
+        <div class="left-item">Home</div>
+        <div class="center-item">Weather App</div>
+      </div>
+
+      <div class="body-container">
+
+        <div class="weather-container">
+          <div class="temperature">
+            <p class="js-temperature-text">20°c</p>
+          </div>
+          <div class="demographic">
+            <p class="region-name js-region-name-text">Santo Domingo Este</p>
+            <p class="city-name js-city-name-text">Santo Domingo</p>
+            <p class="js-country-name-text">Republica Dominicana</p>
+            <p class="time-date js-time-date">12:58 - Monday 2025-07-07</p>
+          </div>
+          <div class="condition">
+            <img class="js-condition-icon" alt="Weather Icon" src="//cdn.weatherapi.com/weather/64x64/day/113.png">
+            <p class="js-condition">Mist</p>
+          </div>
+        </div>
+
+        <nav>
+          <input type="text" placeholder="search for a location" class="search-area js-search-area"/>
+          <button class="js-search-button">Search</button>
+        </nav>
+
+      </div>
+      <div class="footing-container">
+        <p></p>
+      </div>
+    
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>
