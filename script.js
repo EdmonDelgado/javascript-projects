@@ -27,6 +27,7 @@ function getCityName () {
 const fetchResults = async (targetLocation) => {
   let url = `https://api.weatherapi.com/v1/current.json?key=0562862d302444aa99a01718250807&q=${targetLocation}&aqi=no`;
 
+
   const res = await fetch(url);
 
   const data = await res.json();
